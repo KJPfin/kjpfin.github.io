@@ -1,79 +1,50 @@
-# Site settings
-title: KJP Financials and Tax services
-description: >-
-  Write an awesome description for your site here. This will appear in
-  your document head meta (for Google search results) and in your feed.xml
-  site description.
-
-url: "https://kjpfin.github.io"
+title: Your Site Title
+description: > # this means to ignore newlines until "show_excerpts:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 baseurl: "/"
+url: https://kjpfin.github.io # change this URL, this is needed for generating right sitemap
 
-# Remote theme configuration for GitHub Pages
-remote_theme: abhinavs/cookie
-
-# Permalink structure for blog posts
 permalink: "/blog/:title/"
 
-# Collections
-collections:
-  posts:
-    output: true
-    permalink: /blog/:title/
-  pages:
-    output: true
-    permalink: /:name
-
-# Plugins
 plugins:
   - jekyll-feed
   - jekyll-soopr-seo-tag
   - jekyll-sitemap
-  - jekyll-remote-theme
+  - jekyll-minifier
 
-# Minifier
+css_dir: "assets/css" # defaults to "css"
+
+highlighter: rouge
+
+collections:
+  posts:
+    output: true
+    permalink: "/blog/:title"
+  pages:
+    output: true
+    permalink: "/:title"
+
 jekyll-minifier:
-  compress_css: true
-  compress_javascript: true
-  compress_json: true
-  simple_doctype: false
-  remove_spaces_inside_tags: false
-  remove_multi_spaces: false
-  remove_comments: true
-  remove_intertag_spaces: false
-  remove_quotes: false
-  compress_css: true
-  compress_javascript: true
-  simple_boolean_attributes: true
-  compress_js_templates: false
-  preserve_line_breaks: false
-  exclude: []
   uglifier_args:
     harmony: true
 
-# CSS directory
-sass:
-  sass_dir: assets/css
+soopr:
+  publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
 
-# Syntax highlighter
-highlighter: rouge
-
-# Twitter card type
 twitter:
   card: summary_large_image
 
-# Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - README.md
-  - LICENSE.md
-  - netlify.toml
   - package.json
   - package-lock.json
+  - README.md
   - postcss.config.js
+  - purgecss.config.js
   - tailwind.config.js
+  - .gitignore
+  - vendor
