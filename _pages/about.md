@@ -4,34 +4,22 @@ title: About
 permalink: /about/
 ---
 
-# About Me
+# Our mission
 
+We have created a caring environment where you can feel comfortable knowing that your
+finances are managed by a group you can trust. At KJP Financials, you&#39;ll receive straight
+forward and personal advice from a knowledgeable professional.
+
+## Our Values
+
+As a small independent firm, we are in touch with our clients often and deliver personalized
+care.  Personal taxation is a critical area that requires careful attention to ensure compliance
+and optimize your tax position. The ever-changing tax landscape underscores the importance of
+staying up to date and proactively managing your tax obligations.
 Welcome to my personal website! This is a space where I share my thoughts, projects, and experiences.
-
-## Who I Am
-
-I'm passionate about technology, learning, and creating meaningful projects. This website serves as a platform to document my journey and connect with like-minded individuals.
-
-## What I Do
-
-- Building and experimenting with web technologies
-- Learning new programming languages and frameworks
-- Sharing knowledge through blog posts
-- Working on open-source projects
-
-## My Tech Stack
-
-I work with various technologies including:
-
-- Web Development (HTML, CSS, JavaScript)
-- Static Site Generators (Jekyll)
-- Version Control (Git, GitHub)
-- And always learning more!
 
 ## Get in Touch
 
 Feel free to explore my blog and projects. If you'd like to connect or have any questions, don't hesitate to reach out!
 
 ---
-
-*This site is built with Jekyll and the Cookie theme, hosted on GitHub Pages.*
