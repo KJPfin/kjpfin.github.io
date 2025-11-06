@@ -3,30 +3,19 @@ layout: page
 title: About Cookie
 ---
 
-Cookie is a landing page site using [Tailwind CSS](https://www.tailwindcss.com/). You can learn more about customizing the site in `README.md` file in root directory of the project. You can learn more about Jekyll  at [jekyllrb.com](https://jekyllrb.com/)
+# Our mission
 
-You can find the source code for cookie at GitHub:
-[abhinavs](https://github.com/abhinavs) /
-[cookie](https://github.com/abhinavs/cookie)
+We have created a caring environment where you can feel comfortable knowing that your
+finances are managed by a group you can trust. At KJP Financials, you&#39;ll receive straight
+forward and personal advice from a knowledgeable professional.
 
-Cookie is a Jekyll based static website for your next project. It uses Tailwind CSS and comes with
-1. Landing Page
-2. Blog
-3. Auxilarly Pages like Terms, Privacy Policy, Contact and About us.
+## Our Values
 
-All pages are responsive and mobile friendly.
-
-## Why Jekyll?
-Jekyll is a static website generator - what it means is that in production, your site will be extremely fast because it has been 'compliled' into HTML pages while deployment. Separating your landing website from your app website is also useful because it takes away the load which otherwise your app website would have handled - it keeps your app website free.
-
-Cookie uses Tailwind 2.0 which is a good improvement over Tailwind 1.0.
-
-## Soopr
-[Soopr][soopr-website] is the easiest way to for you add share reaction buttons to your blog and website, integrate an URL shortener and analytics service. Soopr lets you manage all of these using a powerful dashboard.
-
-Cookie uses Soopr for share and like buttons and is already integrated. By default, Cookie shows `circular` Twitter, Facebook and Copy buttons in `base` size. To add `like` button, please signup for free on [Soopr][soopr-website]
-
-Check out the [Soopr Website][soopr-website] for more info on how to get the most out of Soopr. 
+As a small independent firm, we are in touch with our clients often and deliver personalized
+care.  Personal taxation is a critical area that requires careful attention to ensure compliance
+and optimize your tax position. The ever-changing tax landscape underscores the importance of
+staying up to date and proactively managing your tax obligations.
+Welcome to my personal website! This is a space where I share my thoughts, projects, and experiences.
 
 
 ## Installation
@@ -54,5 +43,4 @@ TODO
 ## Credits
 Landing page is based on [Tailwind Starter Kit](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation) and components from [Tailblocks](https://tailblocks.cc/) - thanks for providing an amazing landing page and components under MIT License.
 
-
-[soopr-website]: https://www.soopr.co
+---
