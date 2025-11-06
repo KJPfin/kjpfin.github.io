@@ -1,50 +1,43 @@
-title: Your Site Title
-description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/"
-url: https://kjpfin.github.io # change this URL, this is needed for generating right sitemap
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that.
+# This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'.
+# If you change this file, please restart the server process.
 
-permalink: "/blog/:title/"
+# Site settings
+# are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-plugins:
-  - jekyll-feed
-  - jekyll-soopr-seo-tag
-  - jekyll-sitemap
-  - jekyll-minifier
+#theme: jekyll-agency
+remote_theme: raviriley/agency-jekyll-theme
 
-css_dir: "assets/css" # defaults to "css"
+url    : "https://kjpfin.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
 
-highlighter: rouge
+title      : KJPfin
+email      : your-email@example.com #this is also the email contact forms will go to
+description: "Agency Bootstrap theme for my personal site"
+author     : KJPfin
+# logo:     #optional, defaults to site title
+  # path: assets\img\clients\creative-market.jpg
+  # height: 60 #height in px, defaults to 52px
+
+locale: "en-US" # See available languages in _data/sitetext.yml
+
+analytics:
+  google: #Google Analytics tracking code here
 
 collections:
-  posts:
-    output: true
-    permalink: "/blog/:title"
-  pages:
-    output: true
-    permalink: "/:title"
+  portfolio:
 
-jekyll-minifier:
-  uglifier_args:
-    harmony: true
+markdown: kramdown
 
-soopr:
-  publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
+# Uncomment following line to use Formspree form ID based URL instead of email based URL
+# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
+# formspree_form_path: "f/a_form_id"
 
-twitter:
-  card: summary_large_image
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - package.json
-  - package-lock.json
-  - README.md
-  - postcss.config.js
-  - purgecss.config.js
-  - tailwind.config.js
-  - .gitignore
-  - vendor
+plugins:
+  - jekyll-remote-theme
