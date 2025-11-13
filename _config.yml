@@ -17,10 +17,10 @@ remote_theme: raviriley/agency-jekyll-theme
 url    : "https://kjpfin.github.io" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : KJPfin
-email      : your-email@example.com #this is also the email contact forms will go to
-description: "Agency Bootstrap theme for my personal site"
-author     : KJPfin
+title      : KJP Financials
+email      : info@kjpfinancials.com #this is also the email contact forms will go to
+description: "Professional financial services including tax preparation, tax planning, accounting services, and registered agent services. Trusted financial guidance from experienced professionals."
+author     : KJP Financials
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px

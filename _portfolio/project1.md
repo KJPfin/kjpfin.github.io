@@ -1,18 +1,19 @@
 ---
-title: Project Threads
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
+title: Personalized Service
+subtitle: Small firm, big impact
 image: assets/img/portfolio/01-full.jpg
-alt: Shirts on a hanger
+alt: Professional financial consultation
 
 caption:
-  title: Threads
-  subtitle: Illustration
+  title: Personalized Service
+  subtitle: Client-Focused Approach
   thumbnail: assets/img/portfolio/01-thumbnail.jpg
 ---
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+As a small independent firm, we are in touch with our clients often and deliver **personalized care** that larger firms simply cannot match. We take the time to understand your unique financial situation and provide tailored solutions.
 
 {:.list-inline}
-- Date: January 2017
-- Client: Threads
-- Category: Illustration
+- Dedicated personal attention
+- Direct access to experienced professionals
+- Customized financial strategies
+- Responsive communication
 

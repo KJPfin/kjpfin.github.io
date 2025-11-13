@@ -1,18 +1,19 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
+title: Proactive Tax Planning
+subtitle: Stay ahead of tax season
 image: assets/img/portfolio/02-full.jpg
-alt: Keep Exploring
+alt: Strategic tax planning
 
 caption:
-  title: Explore
-  subtitle: Graphic Design
+  title: Tax Planning
+  subtitle: Maximize Your Savings
   thumbnail: assets/img/portfolio/02-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+We don't just prepare your taxes - we help you **plan ahead** to minimize your tax liability throughout the year. Our proactive approach ensures you're taking advantage of every deduction and credit available to you.
 
 {:.list-inline}
-- Date: January 2017
-- Client: Explore
-- Category: Graphic Design
+- Year-round tax strategy
+- Identify tax-saving opportunities
+- Ensure compliance with changing regulations
+- Maximize deductions and credits
 
