@@ -94,26 +94,14 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR TEAM"
-    text: "Experienced professionals dedicated to your financial success"
-    subtext: Our team of knowledgeable professionals is committed to providing personalized financial guidance and support to help you achieve your goals.
+    title: "MEET THE PRINCIPAL"
+    text: "Your trusted financial advisor"
+    subtext: With personalized care and professional expertise, Kerline is committed to helping you achieve your financial goals and ensuring compliance with all tax regulations.
     section: team
     people:
-      - name: "Your Name"
-        role: "Principal / CPA"
+      - name: "Kerline Josue-Poulard"
+        role: "Principal / Financial Advisor"
         image: assets/img/team/1.jpg
-        social:
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Team Member"
-        role: "Tax Specialist"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Team Member"
-        role: "Accountant"
-        image: assets/img/team/3.jpg
         social:
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
