@@ -57,6 +57,9 @@ Menu
 <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
 {%- endif -%}
 {%- if site.data.sitetext[site.locale].header.button -%}
+<div style="margin-bottom: 1.5rem;">
+  <img src="assets/img/logo.png" alt="{{ site.title }}" style="max-width: 220px; width: 100%;" />
+</div>
 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">{{ site.data.sitetext[site.locale].header.button }}</a>
 {%- endif -%}
 </div>
@@ -73,6 +76,9 @@ Menu
 <div class="intro-heading text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</div>
 {%- endif -%}
 {%- if site.data.sitetext.header.button -%}
+<div style="margin-bottom: 1.5rem;">
+  <img src="assets/img/logo.png" alt="{{ site.title }}" style="max-width: 220px; width: 100%;" />
+</div>
 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.header.buttonlink }}">{{ site.data.sitetext.header.button }}</a>
 {%- endif -%}
 </div>
