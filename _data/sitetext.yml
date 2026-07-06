@@ -13,7 +13,7 @@ en: &DEFAULT_EN
   header:
     title: Welcome to KJP Financials
     text: Trusted Financial Guidance You Can Count On
-    image: assets/img/Logo 1.jpg
+    image: assets/img/logo.png
     button: Learn More
     buttonlink: "#services"
 
