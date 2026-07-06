@@ -22,7 +22,7 @@ email      : info@kjpfinancials.com #this is also the email contact forms will g
 description: "Professional financial services including tax preparation, tax planning, accounting services, and registered agent services. Trusted financial guidance from experienced professionals."
 author     : KJP Financials
 logo:     #optional, defaults to site title
-  path: assets/img/logo.png
+  path: assets/img/KJP_Logo3.png
   height: 52 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
